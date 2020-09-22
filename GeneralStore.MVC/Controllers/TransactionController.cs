@@ -10,6 +10,7 @@ namespace GeneralStore.MVC.Controllers
     public class TransactionController : Controller
     {
         private ApplicationDbContext _db = new ApplicationDbContext();
+
         // GET: Transaction
         public ActionResult Index()
         {
